@@ -297,81 +297,15 @@
     <section id="game" class="game-section">
         <div class="container">
             <div class="game-container">
-                <!-- 第三方游戏平台跳转方案 -->
-                <div style="width: 100%; height: 600px; background: linear-gradient(180deg, #87CEEB 0%, #4682B4 100%); border-radius: 16px; position: relative; overflow: hidden;">
-                    
-                    <!-- 游戏背景动画 -->
-                    <div style="position: absolute; width: 100%; height: 100%; opacity: 0.3;">
-                        <div style="position: absolute; font-size: 40px; animation: fishSwim1 8s infinite linear;">🐠</div>
-                        <div style="position: absolute; font-size: 30px; animation: fishSwim2 10s infinite linear;">🐟</div>
-                        <div style="position: absolute; font-size: 25px; animation: fishSwim3 12s infinite linear;">🐡</div>
-                    </div>
-                    
-                    <!-- 主要内容 -->
-                    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; text-align: center; position: relative; z-index: 10;">
-                        
-                        <div style="margin-bottom: 40px;">
-                            <div style="font-size: 4rem; margin-bottom: 20px;">🐠</div>
-                            <h3 style="color: white; font-size: 2.5rem; font-weight: 700; margin-bottom: 15px; text-shadow: 0 4px 15px rgba(0,0,0,0.3);">
-                                Game Fish Eat Fish
-                            </h3>
-                            <p style="color: rgba(255,255,255,0.9); font-size: 1.3rem; margin-bottom: 0;">
-                                The ultimate fish growing adventure awaits!
-                            </p>
-                        </div>
-                        
-                        <!-- 单一游戏选项 -->
-                        <div style="max-width: 400px;">
-                            <a href="https://www.twoplayergames.org/game/fish-eat-fish" target="_blank" style="
-                                display: block; 
-                                background: rgba(255,255,255,0.15); 
-                                backdrop-filter: blur(15px);
-                                border: 2px solid rgba(255,255,255,0.2);
-                                color: white; 
-                                padding: 35px 30px; 
-                                border-radius: 20px; 
-                                text-decoration: none; 
-                                transition: all 0.3s ease;
-                                box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-                                text-align: center;
-                            " onmouseover="this.style.transform='translateY(-8px) scale(1.02)'; this.style.background='rgba(255,255,255,0.25)'; this.style.boxShadow='0 15px 40px rgba(0,0,0,0.4)'" 
-                               onmouseout="this.style.transform='translateY(0) scale(1)'; this.style.background='rgba(255,255,255,0.15)'; this.style.boxShadow='0 10px 30px rgba(0,0,0,0.3)'">
-                                
-                                <div style="font-size: 4rem; margin-bottom: 20px; filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));">🐠</div>
-                                
-                                <h4 style="font-size: 1.8rem; font-weight: 700; margin-bottom: 15px; text-shadow: 0 2px 4px rgba(0,0,0,0.3);">
-                                    Fish Eat Fish
-                                </h4>
-                                
-                                <p style="font-size: 1.1rem; opacity: 0.9; margin-bottom: 25px; line-height: 1.5;">
-                                    Start as a small fish and eat smaller fish to grow bigger in this classic aquatic adventure!
-                                </p>
-                                
-                                <div style="
-                                    background: linear-gradient(135deg, #30D158, #007AFF); 
-                                    padding: 15px 30px; 
-                                    border-radius: 25px; 
-                                    font-size: 1.1rem; 
-                                    font-weight: 700;
-                                    box-shadow: 0 4px 15px rgba(48,209,88,0.4);
-                                    display: inline-block;
-                                    min-width: 150px;
-                                ">
-                                    🎮 Play Now!
-                                </div>
-                                
-                            </a>
-                        </div>
-                        
-                        <div style="margin-top: 30px;">
-                            <p style="color: rgba(255,255,255,0.8); font-size: 0.9rem;">
-                                🌐 Game opens in new window • 🆓 Completely free to play
-                            </p>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
+<iframe 
+  src="https://www.twoplayergames.org/gameframe/fish-eat-fish" 
+  width="100%" 
+  height="600" 
+  frameborder="0" 
+  allowfullscreen 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  style="display: block; margin: 0 auto;"
+></iframe>
             </div>
         </div>
     </section>
@@ -476,19 +410,6 @@
             </div>
         </div>
     </footer>
-
-    <script>
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
-            });
-        });
-    </script>
-</body>
     <div style= display: none>
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-NJGV5W21Y3"></script>
@@ -500,4 +421,5 @@
   gtag('config', 'G-NJGV5W21Y3');
 </script>
   </div>
+</body>
 </html>
